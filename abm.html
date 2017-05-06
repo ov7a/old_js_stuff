@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script type="text/javascript" src="abm.js"></script>
+	<title>Алгоритм Берлекемпа-Месси</title>
+</head>
+<body>	
+	<div align=center>
+		<p><input type="text" id="inputS" value="" onkeypress="javascript: if (event.keyCode==13) calc()"/></p>
+		<p><input type="button" value="Поехали!" onclick='calc()' /></p>
+	</div>
+	<div align=center style="text-align: center;">
+		<div style="display:inline-block; vertical-align: middle;">
+			<canvas id="canva" width="0" height="0"></canvas>	
+		</div>
+		<div style="display:inline-block; vertical-align: middle;">
+			<p id="otvet"></p>
+		</div>
+	</div>
+	<div style="clear: both;" align=center>
+		<table border=1 cellpadding="4">
+			<tbody id="answer">
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
